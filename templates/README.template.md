@@ -29,9 +29,11 @@ AI 应用架构师，做金融场景的大模型落地。
 ## 📊 数据画像
 
 <!--START_SECTION:stats-->
-<img src="https://streak-stats.demolab.com/?user=ching7&theme=tokyonight&hide_border=true&locale=zh_CN" />
+<img src="https://streak-stats.demolab.com/?user=ching7&theme=solarized-light&hide_border=true&locale=zh_CN" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=ching7&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=15" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ching7&theme=solarized-light&hide_border=true&area=true&days=90" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=ching7&theme=flat&no-frame=true&row=1&column=6&margin-w=15" />
 <!--END_SECTION:stats-->
 
 ## 🗂 我的项目

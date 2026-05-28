@@ -29,9 +29,11 @@ AI 应用架构师，做金融场景的大模型落地。
 ## 📊 数据画像
 
 <!--START_SECTION:stats-->
-<img src="https://streak-stats.demolab.com/?user=ching7&theme=tokyonight&hide_border=true&locale=zh_CN" />
+<img src="https://streak-stats.demolab.com/?user=ching7&theme=solarized-light&hide_border=true&locale=zh_CN" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=ching7&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=15" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ching7&theme=solarized-light&hide_border=true&area=true&days=90" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=ching7&theme=flat&no-frame=true&row=1&column=6&margin-w=15" />
 <!--END_SECTION:stats-->
 
 ## 🗂 我的项目
@@ -41,11 +43,11 @@ AI 应用架构师，做金融场景的大模型落地。
 
 | 仓库 | 点评 | ⭐ | 语言 | 最后更新 |
 | --- | --- | --- | --- | --- |
-| [ching7/ching7](https://github.com/ching7/ching7) |  | 0 | JavaScript | 今天 |
-| [ching7/obsidian-data](https://github.com/ching7/obsidian-data) |  | 0 | — | 3 天前 |
-| [ching7/twofloor](https://github.com/ching7/twofloor) |  | 0 | SCSS | 3 周前 |
-| [ching7/astro-blog-starter-template](https://github.com/ching7/astro-blog-starter-template) |  | 0 | Astro | 2 个月前 |
-| [ching7/imageCaptureDemo](https://github.com/ching7/imageCaptureDemo) |  | 0 | HTML | 2 个月前 |
+| [ching7/ppt2video](https://github.com/ching7/ppt2video) |  | 35 | Java | 1 年前 |
+| [ching7/smartisan-mall-simple](https://github.com/ching7/smartisan-mall-simple) |  | 1 | Vue | 3 年前 |
+| [ching7/fastDFSStudy](https://github.com/ching7/fastDFSStudy) |  | 1 | Java | 5 年前 |
+| [ching7/nginxStudy](https://github.com/ching7/nginxStudy) |  | 1 | — | 6 年前 |
+| [ching7/mall-learning](https://github.com/ching7/mall-learning) |  | 1 | — | 6 年前 |
 <!--END_SECTION:my-repos-->
 
 ## ⭐ 精选收藏
