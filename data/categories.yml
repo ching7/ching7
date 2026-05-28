@@ -37,6 +37,5 @@ starred:
 
 options:
   max_per_category: 30
-  columns: [name, comment, stars, language, updated]
   sort: yaml_order
   show_archived: false

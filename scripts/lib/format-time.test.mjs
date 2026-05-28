@@ -31,3 +31,7 @@ test('formatRelative: 400 days ago → "1 年前"', () => {
 test('formatRelative: null input → ""', () => {
   assert.equal(formatRelative(null, NOW), '');
 });
+
+test('formatRelative: future date → ""', () => {
+  assert.equal(formatRelative('2026-06-15T12:00:00Z', NOW), '');
+});
