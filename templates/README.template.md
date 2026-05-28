@@ -1,5 +1,9 @@
 # 陈亚男 · AI Application Architect
 
+<!--START_SECTION:hero-->
+![LLM](https://img.shields.io/badge/-LLM-blueviolet?style=flat-square) ![RAG](https://img.shields.io/badge/-RAG-blue?style=flat-square) ![LangGraph](https://img.shields.io/badge/-LangGraph-green?style=flat-square) ![MCP](https://img.shields.io/badge/-MCP-orange?style=flat-square) ![Cloud-Native](https://img.shields.io/badge/-Cloud--Native-1f6feb?style=flat-square) ![Java](https://img.shields.io/badge/-Java-red?style=flat-square&logo=oracle) ![Python](https://img.shields.io/badge/-Python-yellow?style=flat-square&logo=python) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go)
+<!--END_SECTION:hero-->
+
 <!--START_SECTION:narrative-->
 AI 应用架构师，做金融场景的大模型落地。
 
@@ -12,28 +16,12 @@ AI 应用架构师，做金融场景的大模型落地。
 再往下是数据画像、写过的代码、star 了但还没看完的仓库，以及过往项目。
 <!--END_SECTION:narrative-->
 
-<!--START_SECTION:hero-->
-> 金融行业大模型落地 · RAG / Multi-Agent · 8 年经验
-
-![LLM](https://img.shields.io/badge/-LLM-blueviolet?style=flat-square)
-![RAG](https://img.shields.io/badge/-RAG-blue?style=flat-square)
-![LangGraph](https://img.shields.io/badge/-LangGraph-green?style=flat-square)
-![MCP](https://img.shields.io/badge/-MCP-orange?style=flat-square)
-![Cloud-Native](https://img.shields.io/badge/-Cloud--Native-1f6feb?style=flat-square)
-
-![Java](https://img.shields.io/badge/-Java-red?style=flat-square&logo=oracle)
-![Python](https://img.shields.io/badge/-Python-yellow?style=flat-square&logo=python)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go)
-<!--END_SECTION:hero-->
-
 ## 📊 数据画像
 
 <!--START_SECTION:stats-->
 <img src="https://streak-stats.demolab.com/?user=ching7&theme=solarized-light&hide_border=true&locale=zh_CN" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ching7&theme=solarized-light&hide_border=true&area=true&days=90" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=ching7&theme=flat&no-frame=true&row=1&column=6&margin-w=15" />
+<img src="https://ghchart.rshah.org/859900/ching7" alt="ching7's contribution graph" />
 <!--END_SECTION:stats-->
 
 ## 🗂 我的项目
