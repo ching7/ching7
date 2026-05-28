@@ -43,6 +43,7 @@ async function main() {
     const cache = {
       fetched_at: new Date().toISOString(),
       user: USER,
+      stale: false,
       owned: ownedRaw.map(extractRepo),
       starred: starredRaw.map(extractRepo),
     };
@@ -52,7 +53,11 @@ async function main() {
   } catch (err) {
     console.error('fetch-github failed:', err.message);
     if (existsSync(CACHE_PATH)) {
-      console.warn('Keeping previous cache.json; render will use stale data.');
+      const prior = JSON.parse(readFileSync(CACHE_PATH, 'utf8'));
+      prior.stale = true;
+      prior.last_error = err.message;
+      writeFileSync(CACHE_PATH, JSON.stringify(prior, null, 2) + '\n');
+      console.warn('Marked cache.json as stale; render will show warning.');
       process.exit(0);
     }
     process.exit(1);

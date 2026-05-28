@@ -79,3 +79,56 @@ test('matchRepos: starred uses full_name lookup', () => {
   assert.equal(result[0].repos[0].full_name, 'org/repo1');
   assert.equal(result[0].repos[0].comment, '点评');
 });
+
+test('matchRepos: show_archived=false filters archived repos', () => {
+  const cache = [
+    { full_name: 'ching7/x', name: 'x', stargazers_count: 1, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: false, fork: false, topics: [], html_url: '', description: '' },
+    { full_name: 'ching7/y', name: 'y', stargazers_count: 1, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: true,  fork: false, topics: [], html_url: '', description: '' },
+  ];
+  const cfg = {
+    uncategorized_strategy: 'include',
+    uncategorized_title: 'other',
+    categories: [{ id: 'a', title: 'A', repos: [] }],
+  };
+  const result = matchRepos(cache, cfg, { kind: 'owned', options: { show_archived: false } });
+  const other = result.find(g => g.title === 'other');
+  assert.equal(other.repos.length, 1);
+  assert.equal(other.repos[0].name, 'x');
+});
+
+test('matchRepos: sort=stars_desc orders within category by stars desc', () => {
+  const cache = [
+    { full_name: 'ching7/a', name: 'a', stargazers_count: 5, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: false, fork: false, topics: [], html_url: '', description: '' },
+    { full_name: 'ching7/b', name: 'b', stargazers_count: 99, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: false, fork: false, topics: [], html_url: '', description: '' },
+  ];
+  const cfg = {
+    uncategorized_strategy: 'hide',
+    categories: [{
+      id: 'x', title: 'X', repos: [
+        { name: 'a', comment: 'c1' },
+        { name: 'b', comment: 'c2' },
+      ],
+    }],
+  };
+  const result = matchRepos(cache, cfg, { kind: 'owned', options: { sort: 'stars_desc' } });
+  assert.equal(result[0].repos[0].name, 'b');
+  assert.equal(result[0].repos[1].name, 'a');
+});
+
+test('matchRepos: pin overrides sort', () => {
+  const cache = [
+    { full_name: 'ching7/a', name: 'a', stargazers_count: 5, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: false, fork: false, topics: [], html_url: '', description: '' },
+    { full_name: 'ching7/b', name: 'b', stargazers_count: 99, pushed_at: '2026-01-01T00:00:00Z', language: 'Go', archived: false, fork: false, topics: [], html_url: '', description: '' },
+  ];
+  const cfg = {
+    uncategorized_strategy: 'hide',
+    categories: [{
+      id: 'x', title: 'X', repos: [
+        { name: 'a', comment: 'c1', pin: true },
+        { name: 'b', comment: 'c2' },
+      ],
+    }],
+  };
+  const result = matchRepos(cache, cfg, { kind: 'owned', options: { sort: 'stars_desc' } });
+  assert.equal(result[0].repos[0].name, 'a');
+});

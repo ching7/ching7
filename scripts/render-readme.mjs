@@ -21,14 +21,16 @@ function main() {
   const now = new Date();
   const max = cfg.options?.max_per_category ?? 30;
 
-  const myGroups = matchRepos(cache.owned, cfg.my_repos, { kind: 'owned' });
-  const starGroups = matchRepos(cache.starred, cfg.starred, { kind: 'starred' });
+  const myGroups = matchRepos(cache.owned, cfg.my_repos, { kind: 'owned', options: cfg.options });
+  const starGroups = matchRepos(cache.starred, cfg.starred, { kind: 'starred', options: cfg.options });
 
   const myMd = renderSection(myGroups, { now, max_per_category: max });
   const starMd = renderSection(starGroups, { now, max_per_category: max });
 
   const fetchedDate = (cache.fetched_at ?? new Date().toISOString()).slice(0, 10);
-  const footerMd = `_Last updated by GitHub Action · ${fetchedDate}_`;
+  const footerMd = cache.stale
+    ? `_⚠️ Data may be stale · Last fresh fetch: ${fetchedDate}_`
+    : `_Last updated by GitHub Action · ${fetchedDate}_`;
 
   let out = template;
   out = replaceSection(out, 'my-repos', myMd);
