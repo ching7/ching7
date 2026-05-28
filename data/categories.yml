@@ -1,0 +1,42 @@
+# 唯一手动维护的文件 — 改完 push 即触发 README 重渲染
+
+my_repos:
+  uncategorized_strategy: include
+  uncategorized_title: 其他探索
+
+  categories:
+    - id: llm-apps
+      title: LLM 应用
+      description: 大模型应用层探索
+      repos: []
+
+    - id: infra
+      title: 工程基建
+      repos: []
+
+starred:
+  uncategorized_strategy: hide
+
+  categories:
+    - id: llm-agent
+      title: LLM / Agent 框架
+      description: 多智能体编排与 LLM 应用开发框架
+      repos: []
+
+    - id: rag
+      title: RAG 与向量检索
+      repos: []
+
+    - id: inference
+      title: 模型推理与部署
+      repos: []
+
+    - id: fin-ai
+      title: 金融 × AI
+      repos: []
+
+options:
+  max_per_category: 30
+  columns: [name, comment, stars, language, updated]
+  sort: yaml_order
+  show_archived: false
