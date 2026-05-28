@@ -49,37 +49,10 @@ AI 应用架构师，做金融场景的大模型落地。
 | 仓库 | 点评 | ⭐ | 语言 | 最后更新 |
 | --- | --- | --- | --- | --- |
 | [ching7/ching7](https://github.com/ching7/ching7) |  | 0 | JavaScript | 今天 |
-| [ching7/ppt2video](https://github.com/ching7/ppt2video) |  | 35 | Java | 1 年前 |
 | [ching7/obsidian-data](https://github.com/ching7/obsidian-data) |  | 0 | — | 3 天前 |
+| [ching7/twofloor](https://github.com/ching7/twofloor) |  | 0 | SCSS | 3 周前 |
 | [ching7/astro-blog-starter-template](https://github.com/ching7/astro-blog-starter-template) |  | 0 | Astro | 2 个月前 |
 | [ching7/imageCaptureDemo](https://github.com/ching7/imageCaptureDemo) |  | 0 | HTML | 2 个月前 |
-| [ching7/llm](https://github.com/ching7/llm) |  | 0 | Python | 6 个月前 |
-| [ching7/data-migrate](https://github.com/ching7/data-migrate) |  | 0 | Shell | 9 个月前 |
-| [ching7/twofloor](https://github.com/ching7/twofloor) |  | 0 | SCSS | 3 周前 |
-| [ching7/fastDFSStudy](https://github.com/ching7/fastDFSStudy) |  | 1 | Java | 5 年前 |
-| [ching7/flutter-demo](https://github.com/ching7/flutter-demo) |  | 0 | HTML | 1 年前 |
-| [ching7/BongoCat](https://github.com/ching7/BongoCat) |  | 0 | — | 1 年前 |
-| [ching7/mcp-demo](https://github.com/ching7/mcp-demo) |  | 0 | Java | 1 年前 |
-| [ching7/orchestrator](https://github.com/ching7/orchestrator) |  | 0 | — | 1 年前 |
-| [ching7/tlandtc](https://github.com/ching7/tlandtc) |  | 0 | — | 1 年前 |
-| [ching7/spring-ai-alibaba](https://github.com/ching7/spring-ai-alibaba) |  | 0 | — | 1 年前 |
-| [ching7/springStudy](https://github.com/ching7/springStudy) |  | 0 | Java | 1 年前 |
-| [ching7/docker-easyconnect](https://github.com/ching7/docker-easyconnect) |  | 0 | — | 1 年前 |
-| [ching7/javaBaseStudy](https://github.com/ching7/javaBaseStudy) |  | 0 | Java | 1 年前 |
-| [ching7/diagrams](https://github.com/ching7/diagrams) |  | 0 | — | 4 年前 |
-| [ching7/docker-study](https://github.com/ching7/docker-study) |  | 0 | Java | 4 年前 |
-| [ching7/sipp](https://github.com/ching7/sipp) |  | 0 | — | 4 年前 |
-| [ching7/wtv](https://github.com/ching7/wtv) |  | 0 | — | 4 年前 |
-| [ching7/shell-study](https://github.com/ching7/shell-study) |  | 0 | Shell | 4 年前 |
-| [ching7/graduate-study](https://github.com/ching7/graduate-study) |  | 0 | — | 4 年前 |
-| [ching7/webrtc_web](https://github.com/ching7/webrtc_web) |  | 0 | JavaScript | 4 年前 |
-| [ching7/java-interview](https://github.com/ching7/java-interview) |  | 0 | — | 5 年前 |
-| [ching7/renren-fast-vue](https://github.com/ching7/renren-fast-vue) |  | 0 | JavaScript | 4 年前 |
-| [ching7/guliproject](https://github.com/ching7/guliproject) |  | 0 | JavaScript | 5 年前 |
-| [ching7/DataStructureAndAlgorithm](https://github.com/ching7/DataStructureAndAlgorithm) |  | 0 | Java | 5 年前 |
-| [ching7/pythonStudy](https://github.com/ching7/pythonStudy) |  | 1 | Python | 6 年前 |
-
-_还有 36 个未列出，见原始 starred 列表_
 <!--END_SECTION:my-repos-->
 
 ## ⭐ 精选收藏

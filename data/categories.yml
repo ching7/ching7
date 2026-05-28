@@ -3,6 +3,8 @@
 my_repos:
   uncategorized_strategy: include
   uncategorized_title: 其他探索
+  uncategorized_max: 5
+  uncategorized_sort: updated_desc
 
   categories:
     - id: llm-apps

@@ -1,7 +1,11 @@
 const SORTERS = {
   yaml_order: () => 0,
   stars_desc: (a, b) => b.stargazers_count - a.stargazers_count,
-  updated_desc: (a, b) => new Date(b.pushed_at) - new Date(a.pushed_at),
+  updated_desc: (a, b) => {
+    const cmp = new Date(b.pushed_at) - new Date(a.pushed_at);
+    if (cmp !== 0) return cmp;
+    return b.stargazers_count - a.stargazers_count;
+  },
 };
 
 export function matchRepos(cache, cfg, { kind, options = {} }) {
@@ -46,11 +50,16 @@ export function matchRepos(cache, cfg, { kind, options = {} }) {
   });
 
   if (cfg.uncategorized_strategy === 'include') {
-    const leftover = filteredCache
+    let leftover = filteredCache
       .filter(r => !referenced.has(r[lookupKey]))
       .map(r => ({ ...r, comment: '' }));
     if (leftover.length > 0) {
-      leftover.sort(sortFn);
+      const leftoverSortKey = cfg.uncategorized_sort ?? sort;
+      const leftoverSortFn = SORTERS[leftoverSortKey] ?? sortFn;
+      leftover.sort(leftoverSortFn);
+      if (cfg.uncategorized_max != null) {
+        leftover = leftover.slice(0, cfg.uncategorized_max);
+      }
       groups.push({
         id: '_uncategorized',
         title: cfg.uncategorized_title ?? '其他',
