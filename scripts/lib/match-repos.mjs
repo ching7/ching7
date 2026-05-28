@@ -1,6 +1,10 @@
 const SORTERS = {
   yaml_order: () => 0,
-  stars_desc: (a, b) => b.stargazers_count - a.stargazers_count,
+  stars_desc: (a, b) => {
+    const cmp = b.stargazers_count - a.stargazers_count;
+    if (cmp !== 0) return cmp;
+    return new Date(b.pushed_at) - new Date(a.pushed_at);
+  },
   updated_desc: (a, b) => {
     const cmp = new Date(b.pushed_at) - new Date(a.pushed_at);
     if (cmp !== 0) return cmp;
