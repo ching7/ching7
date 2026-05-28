@@ -5,6 +5,12 @@ my_repos:
   uncategorized_title: 其他探索
   uncategorized_max: 5
   uncategorized_sort: stars_desc
+  uncategorized_comments:
+    ppt2video: PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star
+    smartisan-mall-simple: Vue 练手 — 锤子科技官网仿写
+    fastDFSStudy: FastDFS 上传下载 demo，分布式存储入门时的笔记
+    nginxStudy: Nginx 基础配置 demo，存档用
+    mall-learning: 扒 macrozheng/mall 时的笔记和改动
 
   categories:
     - id: llm-apps

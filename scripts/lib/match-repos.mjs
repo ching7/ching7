@@ -54,9 +54,10 @@ export function matchRepos(cache, cfg, { kind, options = {} }) {
   });
 
   if (cfg.uncategorized_strategy === 'include') {
+    const comments = cfg.uncategorized_comments ?? {};
     let leftover = filteredCache
       .filter(r => !referenced.has(r[lookupKey]))
-      .map(r => ({ ...r, comment: '' }));
+      .map(r => ({ ...r, comment: comments[r[lookupKey]] ?? '' }));
     if (leftover.length > 0) {
       const leftoverSortKey = cfg.uncategorized_sort ?? sort;
       const leftoverSortFn = SORTERS[leftoverSortKey] ?? sortFn;
