@@ -40,3 +40,12 @@ test('replaceSection: special regex chars in content are safe', () => {
   const out = replaceSection(tmpl, 's', tricky);
   assert.ok(out.includes(tricky));
 });
+
+test('replaceSection: regex metacharacters in key are escaped', () => {
+  // If key were interpolated raw, "a.b" would match "axb"; should NOT.
+  const tmpl = '<!--START_SECTION:axb-->WRONG<!--END_SECTION:axb-->\n<!--START_SECTION:a.b-->RIGHT<!--END_SECTION:a.b-->';
+  const out = replaceSection(tmpl, 'a.b', 'PATCHED');
+  assert.ok(out.includes('WRONG'), 'unrelated section should remain untouched');
+  assert.ok(out.includes('PATCHED'));
+  assert.ok(!out.includes('RIGHT'));
+});
