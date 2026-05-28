@@ -1,0 +1,19 @@
+{
+  "name": "ching7-profile-readme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/lib/*.test.mjs",
+    "fetch": "node scripts/fetch-github.mjs",
+    "render": "node scripts/render-readme.mjs",
+    "build": "npm run fetch && npm run render"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.0.0",
+    "yaml": "^2.5.0"
+  }
+}
