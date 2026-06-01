@@ -10,7 +10,7 @@ my_repos:
     smartisan-mall-simple: Vue 练手 — 锤子科技官网仿写
     fastDFSStudy: FastDFS 上传下载 demo，分布式存储入门时的笔记
     nginxStudy: Nginx 基础配置 demo，存档用
-    mall-learning: 扒 macrozheng/mall 时的笔记和改动
+    ai-roundtable: Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评
 
   categories:
     - id: llm-apps
