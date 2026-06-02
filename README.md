@@ -31,8 +31,8 @@ AI 应用架构师，做金融场景的大模型落地。
 
 | 仓库 | 点评 | ⭐ | 语言 | 最后更新 |
 | --- | --- | --- | --- | --- |
-| [ching7/ppt2video](https://github.com/ching7/ppt2video) | PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star | 35 | Java | 今天 |
-| [ching7/ai-roundtable](https://github.com/ching7/ai-roundtable) | Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评 | 1 | JavaScript | 3 天前 |
+| [ching7/ppt2video](https://github.com/ching7/ppt2video) | PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star | 35 | Java | 1 天前 |
+| [ching7/ai-roundtable](https://github.com/ching7/ai-roundtable) | Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评 | 1 | JavaScript | 今天 |
 | [ching7/smartisan-mall-simple](https://github.com/ching7/smartisan-mall-simple) | Vue 练手 — 锤子科技官网仿写 | 1 | Vue | 3 年前 |
 | [ching7/fastDFSStudy](https://github.com/ching7/fastDFSStudy) | FastDFS 上传下载 demo，分布式存储入门时的笔记 | 1 | Java | 5 年前 |
 | [ching7/nginxStudy](https://github.com/ching7/nginxStudy) | Nginx 基础配置 demo，存档用 | 1 | — | 6 年前 |
@@ -112,6 +112,6 @@ _(暂无内容)_
 ---
 
 <!--START_SECTION:footer-->
-_Last updated by GitHub Action · 2026-06-01_
+_Last updated by GitHub Action · 2026-06-02_
 <!--END_SECTION:footer-->
 </content>
