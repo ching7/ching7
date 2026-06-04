@@ -9,7 +9,7 @@ my_repos:
     ppt2video: PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star
     smartisan-mall-simple: Vue 练手 — 锤子科技官网仿写
     fastDFSStudy: FastDFS 上传下载 demo，分布式存储入门时的笔记
-    nginxStudy: Nginx 基础配置 demo，存档用
+    prompt-me: 一个基于福格行为模型（B=MAP）的行为操作系统，通过记录、提示、分析和AI教练，帮助用户把目标变成持续行动，最终形成习惯与自律
     ai-roundtable: Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评
 
   categories:
