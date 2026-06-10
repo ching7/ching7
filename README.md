@@ -31,9 +31,9 @@ AI 应用架构师，做金融场景的大模型落地。
 
 | 仓库 | 点评 | ⭐ | 语言 | 最后更新 |
 | --- | --- | --- | --- | --- |
-| [ching7/ppt2video](https://github.com/ching7/ppt2video) | PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star | 36 | Java | 6 天前 |
-| [ching7/prompt-me](https://github.com/ching7/prompt-me) | 一个基于福格行为模型（B=MAP）的行为操作系统，通过记录、提示、分析和AI教练，帮助用户把目标变成持续行动，最终形成习惯与自律 | 1 | Dart | 今天 |
-| [ching7/ai-roundtable](https://github.com/ching7/ai-roundtable) | Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评 | 1 | JavaScript | 6 天前 |
+| [ching7/ppt2video](https://github.com/ching7/ppt2video) | PPT 转 MP4 小工具，TTS + FFmpeg 拼出来的，意外多人 star | 36 | Java | 1 周前 |
+| [ching7/prompt-me](https://github.com/ching7/prompt-me) | 一个基于福格行为模型（B=MAP）的行为操作系统，通过记录、提示、分析和AI教练，帮助用户把目标变成持续行动，最终形成习惯与自律 | 1 | JavaScript | 今天 |
+| [ching7/ai-roundtable](https://github.com/ching7/ai-roundtable) | Chrome 扩展，实现真正的 AI 圆桌会议。还支持让单个 AI 扮演多个内置角色自我互评 | 1 | JavaScript | 1 周前 |
 | [ching7/smartisan-mall-simple](https://github.com/ching7/smartisan-mall-simple) | Vue 练手 — 锤子科技官网仿写 | 1 | Vue | 3 年前 |
 | [ching7/fastDFSStudy](https://github.com/ching7/fastDFSStudy) | FastDFS 上传下载 demo，分布式存储入门时的笔记 | 1 | Java | 5 年前 |
 <!--END_SECTION:my-repos-->
@@ -112,6 +112,6 @@ _(暂无内容)_
 ---
 
 <!--START_SECTION:footer-->
-_Last updated by GitHub Action · 2026-06-09_
+_Last updated by GitHub Action · 2026-06-10_
 <!--END_SECTION:footer-->
 </content>
