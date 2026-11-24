@@ -1,4 +1,4 @@
-# 作者 · AI Application Architect
+# AI Application Architect
 
 <!--START_SECTION:hero-->
 ![LLM](https://img.shields.io/badge/-LLM-blueviolet?style=flat-square) ![RAG](https://img.shields.io/badge/-RAG-blue?style=flat-square) ![LangGraph](https://img.shields.io/badge/-LangGraph-green?style=flat-square) ![MCP](https://img.shields.io/badge/-MCP-orange?style=flat-square) ![Cloud-Native](https://img.shields.io/badge/-Cloud--Native-1f6feb?style=flat-square) ![Java](https://img.shields.io/badge/-Java-red?style=flat-square&logo=oracle) ![Python](https://img.shields.io/badge/-Python-yellow?style=flat-square&logo=python) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go)
@@ -96,10 +96,10 @@ _(暂无内容)_
 
 ### 工作经历
 
-| 时间 | 组织 | 角色 | 技术方向 |
-| --- | --- | --- | --- |
-| 2021.05 – Now | 头部 AI 平台公司 | AI 系统架构师 | 大模型平台 / Agent / RAG |
-| 2018.07 – 2021.05 | 金融 SaaS 上市公司 | Java 工程师 | 金融基础架构 / 高并发 |
+| 时间 | 角色 | 技术方向 |
+| --- | --- | --- |
+| 2021.05 – Now | AI 系统架构师 | 大模型平台 / Agent / RAG |
+| 2018.07 – 2021.05 | Java 工程师 | 金融基础架构 / 高并发 |
 
 ### 技能矩阵
 
